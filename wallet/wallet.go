@@ -5,7 +5,7 @@ import "errors"
 
 type Bitcoin int
 
-type Strinbger interface {
+type Stringer interface {
 	String() string
 }
 
